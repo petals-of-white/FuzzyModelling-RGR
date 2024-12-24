@@ -1,0 +1,34 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           FuzzyModelling-RGR
+version:        0.1.0.0
+category:       Fuzzy
+homepage:       https://github.com/petals-of-white/FuzzyModelling-RGR#readme
+author:         Maksym Syvash
+maintainer:     maksym_syvash@outlook.com
+copyright:      2024 Maksym Syvash
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+executable FuzzyModelling-RGR
+  main-is: Main.hs
+  other-modules:
+      Core
+      Plot
+      Paths_FuzzyModelling_RGR
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , easyplot
+    , huzzy
+  default-language: Haskell2010

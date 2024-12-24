@@ -1,0 +1,26 @@
+name:                FuzzyModelling-RGR
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/petals-of-white/FuzzyModelling-RGR#readme
+license:             MIT
+author:              Maksym Syvash
+maintainer:          maksym_syvash@outlook.com
+copyright:           2024 Maksym Syvash
+category:            Fuzzy
+extra-source-files:
+- README.md
+- CHANGELOG.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - huzzy
+  - easyplot
+
+ghc-options:
+- -Wall
+
+executables:
+  FuzzyModelling-RGR:
+    source-dirs:      src
+    main:             Main.hs
