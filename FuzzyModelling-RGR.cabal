@@ -22,6 +22,7 @@ executable FuzzyModelling-RGR
   main-is: Main.hs
   other-modules:
       Core
+      FuzzySystem
       Plot
       Paths_FuzzyModelling_RGR
   hs-source-dirs:
