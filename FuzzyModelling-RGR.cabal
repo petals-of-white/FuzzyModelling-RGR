@@ -24,6 +24,7 @@ executable FuzzyModelling-RGR
       Core
       FuzzySystem
       Plot
+      Test
       Paths_FuzzyModelling_RGR
   hs-source-dirs:
       src
@@ -32,4 +33,5 @@ executable FuzzyModelling-RGR
       base >=4.7 && <5
     , easyplot
     , huzzy
+    , random
   default-language: Haskell2010
